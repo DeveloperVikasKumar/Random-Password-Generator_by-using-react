@@ -1,6 +1,41 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  background-color: #000;
+  box-sizing: border-box;  
 }
+header{
+  width: 100vw;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Mooli', sans-serif;
+  background-color: #202124;
+}
+#header-first-line{
+  font-size: 26px;
+  color: greenyellow;
+}
+
+
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  background-color: #202124;
+  padding: 5px 0;
+  color: white;
+  font-family: 'Mooli', sans-serif;
+}
+#footer-first-line{
+  font-size: 16px;
+}
+#footer-second-line{
+  font-size: 16px;
+}
+footer p a{
+  color: #93deff;
+  text-decoration: none;
+}
+footer p a:hover{
+  text-decoration: underline;
+} 
